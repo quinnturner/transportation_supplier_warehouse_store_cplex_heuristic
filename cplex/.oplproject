@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Configuration1" category="opl">
+			<ref name="MSCI434Project.mod" type="model">
+			</ref>
+			<ref name="MSCI434Project.ops" type="setting">
+			</ref>
+			<ref name="MSCI434Project.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

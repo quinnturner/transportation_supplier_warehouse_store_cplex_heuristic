@@ -1,0 +1,1625 @@
+[{
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 35.5,
+							"store": 7
+						}, {
+							"amount": 4.5,
+							"store": 2
+						}
+					], [{
+							"amount": 34.5,
+							"store": 1
+						}, {
+							"amount": 5.5,
+							"store": 2
+						}
+					], [{
+							"amount": 24.0,
+							"store": 2
+						}, {
+							"amount": 16.0,
+							"store": 10
+						}
+					], [{
+							"amount": 19.5,
+							"store": 10
+						}, {
+							"amount": 20.5,
+							"store": 9
+						}
+					], [{
+							"amount": 14.5,
+							"store": 9
+						}, {
+							"amount": 10.0,
+							"store": 2
+						}, {
+							"amount": 15.5,
+							"store": 10
+						}
+					], [{
+							"amount": 24.0,
+							"store": 2
+						}, {
+							"amount": 16.0,
+							"store": 9
+						}
+					], [{
+							"amount": 4.5,
+							"store": 9
+						}, {
+							"amount": 1.56888e-11,
+							"store": 6
+						}, {
+							"amount": 10.0,
+							"store": 2
+						}, {
+							"amount": 0.5,
+							"store": 10
+						}
+					], [{
+							"amount": 35.0,
+							"store": 10
+						}, {
+							"amount": 5.0,
+							"store": 2
+						}
+					], [{
+							"amount": 30.5,
+							"store": 9
+						}, {
+							"amount": 0.5,
+							"store": 10
+						}, {
+							"amount": 9.0,
+							"store": 2
+						}
+					], [{
+							"amount": 4.5,
+							"store": 9
+						}, {
+							"amount": 35.0,
+							"store": 10
+						}, {
+							"amount": 0.5,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 35.0,
+							"store": 5
+						}, {
+							"amount": 5.0,
+							"store": 3
+						}
+					], [{
+							"amount": -6.001321999999999e-12,
+							"store": 2
+						}, {
+							"amount": 35.0,
+							"store": 8
+						}, {
+							"amount": 6.18062e-12,
+							"store": 1
+						}, {
+							"amount": 4.999999999999823,
+							"store": 4
+						}
+					], [{
+							"amount": 29.500000000000178,
+							"store": 4
+						}, {
+							"amount": 10.499999999999822,
+							"store": 3
+						}
+					], [{
+							"amount": 37.5,
+							"store": 6
+						}, {
+							"amount": 2.5,
+							"store": 4
+						}
+					], [{
+							"amount": 20.500000000000178,
+							"store": 3
+						}, {
+							"amount": 2.4999999999998224,
+							"store": 4
+						}
+					], [{
+							"amount": 32.00000000000018,
+							"store": 4
+						}, {
+							"amount": 7.999999999999822,
+							"store": 3
+						}
+					], [{
+							"amount": 2.4999999999998224,
+							"store": 4
+						}, {
+							"amount": 7.5,
+							"store": 3
+						}
+					], [{
+							"amount": 28.5,
+							"store": 3
+						}
+					], [{
+							"amount": 32.00000000000018,
+							"store": 4
+						}, {
+							"amount": 7.5,
+							"store": 3
+						}
+					], [{
+							"amount": 2.4999999999998224,
+							"store": 4
+						}, {
+							"amount": 28.5,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 1
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 35.0,
+							"store": 7
+						}, {
+							"amount": 5.0,
+							"store": 2
+						}
+					], [{
+							"amount": -1.61684e-11,
+							"store": 4
+						}, {
+							"amount": 34.5,
+							"store": 1
+						}, {
+							"amount": 5.500000000016172,
+							"store": 2
+						}
+					], [{
+							"amount": 23.999999999983828,
+							"store": 2
+						}, {
+							"amount": 16.000000000016172,
+							"store": 10
+						}
+					], [{
+							"amount": 18.999999999983828,
+							"store": 10
+						}, {
+							"amount": 21.000000000016172,
+							"store": 9
+						}
+					], [{
+							"amount": 13.499999999983828,
+							"store": 9
+						}, {
+							"amount": 10.500000000016172,
+							"store": 2
+						}, {
+							"amount": 16.0,
+							"store": 10
+						}
+					], [{
+							"amount": 23.999999999983828,
+							"store": 2
+						}, {
+							"amount": 16.000000000016172,
+							"store": 9
+						}
+					], [{
+							"amount": 5.0,
+							"store": 9
+						}, {
+							"amount": 10.500000000016172,
+							"store": 2
+						}, {
+							"amount": 1.617195266589988e-11,
+							"store": 10
+						}
+					], [{
+							"amount": 34.99999999998383,
+							"store": 10
+						}, {
+							"amount": 5.000000000016172,
+							"store": 2
+						}
+					], [{
+							"amount": 29.5,
+							"store": 9
+						}, {
+							"amount": 1.617195266589988e-11,
+							"store": 10
+						}, {
+							"amount": 10.499999999983828,
+							"store": 2
+						}
+					], [{
+							"amount": 5.0,
+							"store": 9
+						}, {
+							"amount": 34.99999999998383,
+							"store": 10
+						}, {
+							"amount": 1.617195266589988e-11,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 35.5,
+							"store": 5
+						}, {
+							"amount": 1.45519e-11,
+							"store": 10
+						}, {
+							"amount": 4.499999999985448,
+							"store": 3
+						}
+					], [{
+							"amount": -3.63753e-12,
+							"store": 2
+						}, {
+							"amount": 34.5,
+							"store": 8
+						}, {
+							"amount": 5.500000000003638,
+							"store": 4
+						}
+					], [{
+							"amount": 28.999999999996362,
+							"store": 4
+						}, {
+							"amount": 11.000000000003638,
+							"store": 3
+						}
+					], [{
+							"amount": 35.5,
+							"store": 6
+						}, {
+							"amount": 4.5,
+							"store": 4
+						}
+					], [{
+							"amount": 20.000000000010914,
+							"store": 3
+						}, {
+							"amount": 1.000000000003638,
+							"store": 4
+						}
+					], [{
+							"amount": 33.49999999999636,
+							"store": 4
+						}, {
+							"amount": 6.500000000003638,
+							"store": 3
+						}
+					], [{
+							"amount": 1.000000000003638,
+							"store": 4
+						}, {
+							"amount": 8.999999999985448,
+							"store": 3
+						}
+					], [{
+							"amount": 26.500000000014552,
+							"store": 3
+						}
+					], [{
+							"amount": 33.49999999999636,
+							"store": 4
+						}, {
+							"amount": 6.500000000003638,
+							"store": 3
+						}
+					], [{
+							"amount": 1.000000000003638,
+							"store": 4
+						}, {
+							"amount": 2.49999999998181,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 2
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 35.5,
+							"store": 7
+						}, {
+							"amount": 4.5,
+							"store": 2
+						}
+					], [{
+							"amount": 34.5,
+							"store": 1
+						}, {
+							"amount": 5.5,
+							"store": 2
+						}
+					], [{
+							"amount": 24.5,
+							"store": 2
+						}, {
+							"amount": 15.5,
+							"store": 10
+						}
+					], [{
+							"amount": 19.5,
+							"store": 10
+						}, {
+							"amount": 20.5,
+							"store": 9
+						}
+					], [{
+							"amount": 14.0,
+							"store": 9
+						}, {
+							"amount": 10.0,
+							"store": 2
+						}, {
+							"amount": 15.5,
+							"store": 10
+						}
+					], [{
+							"amount": 24.5,
+							"store": 2
+						}, {
+							"amount": 15.5,
+							"store": 9
+						}
+					], [{
+							"amount": 5.0,
+							"store": 9
+						}, {
+							"amount": 10.0,
+							"store": 2
+						}, {
+							"amount": 19.5,
+							"store": 10
+						}
+					], [{
+							"amount": 15.5,
+							"store": 10
+						}, {
+							"amount": 24.5,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 9
+						}
+					], [{
+							"amount": 29.5,
+							"store": 9
+						}, {
+							"amount": 10.5,
+							"store": 10
+						}
+					], [{
+							"amount": 5.0,
+							"store": 9
+						}, {
+							"amount": 9.0,
+							"store": 10
+						}, {
+							"amount": 10.0,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 35.0,
+							"store": 5
+						}, {
+							"amount": 5.0,
+							"store": 3
+						}
+					], [{
+							"amount": 34.0,
+							"store": 8
+						}, {
+							"amount": 6.0,
+							"store": 4
+						}
+					], [{
+							"amount": 28.5,
+							"store": 4
+						}, {
+							"amount": 11.5,
+							"store": 3
+						}
+					], [{
+							"amount": 35.5,
+							"store": 6
+						}, {
+							"amount": 4.5,
+							"store": 4
+						}
+					], [{
+							"amount": 19.5,
+							"store": 3
+						}, {
+							"amount": 1.5,
+							"store": 4
+						}
+					], [{
+							"amount": 33.0,
+							"store": 4
+						}, {
+							"amount": 7.0,
+							"store": 3
+						}
+					], [{
+							"amount": 1.5,
+							"store": 4
+						}, {
+							"amount": 9.5,
+							"store": 3
+						}
+					], [{
+							"amount": 26.5,
+							"store": 3
+						}
+					], [{
+							"amount": 33.0,
+							"store": 4
+						}, {
+							"amount": 7.0,
+							"store": 3
+						}
+					], [{
+							"amount": 1.5,
+							"store": 4
+						}, {
+							"amount": 2.5,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 3
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 36.5,
+							"store": 7
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}
+					], [{
+							"amount": 36.5,
+							"store": 1
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}
+					], [{
+							"amount": 28.5,
+							"store": 2
+						}, {
+							"amount": 11.5,
+							"store": 10
+						}
+					], [{
+							"amount": 24.5,
+							"store": 10
+						}, {
+							"amount": 15.5,
+							"store": 9
+						}
+					], [{
+							"amount": 19.5,
+							"store": 9
+						}, {
+							"amount": 7.0,
+							"store": 2
+						}, {
+							"amount": 11.5,
+							"store": 10
+						}
+					], [{
+							"amount": 28.5,
+							"store": 2
+						}, {
+							"amount": 11.5,
+							"store": 9
+						}
+					], [{
+							"amount": 4.0,
+							"store": 9
+						}, {
+							"amount": 7.0,
+							"store": 2
+						}, {
+							"amount": 24.5,
+							"store": 10
+						}
+					], [{
+							"amount": 11.5,
+							"store": 10
+						}, {
+							"amount": 28.5,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 9
+						}
+					], [{
+							"amount": 31.0,
+							"store": 9
+						}, {
+							"amount": 9.0,
+							"store": 10
+						}
+					], [{
+							"amount": 4.0,
+							"store": 9
+						}, {
+							"amount": 15.5,
+							"store": 10
+						}, {
+							"amount": 7.0,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 35.5,
+							"store": 5
+						}, {
+							"amount": 4.5,
+							"store": 3
+						}
+					], [{
+							"amount": 35.5,
+							"store": 8
+						}, {
+							"amount": 4.5,
+							"store": 4
+						}
+					], [{
+							"amount": 30.0,
+							"store": 4
+						}, {
+							"amount": 10.0,
+							"store": 3
+						}
+					], [{
+							"amount": 36.0,
+							"store": 6
+						}, {
+							"amount": 4.0,
+							"store": 4
+						}
+					], [{
+							"amount": 22.5,
+							"store": 3
+						}, {
+							"amount": 0.5,
+							"store": 4
+						}
+					], [{
+							"amount": 34.0,
+							"store": 4
+						}, {
+							"amount": 6.0,
+							"store": 3
+						}
+					], [{
+							"amount": 0.5,
+							"store": 4
+						}, {
+							"amount": 8.5,
+							"store": 3
+						}
+					], [{
+							"amount": 28.5,
+							"store": 3
+						}
+					], [{
+							"amount": 34.0,
+							"store": 4
+						}, {
+							"amount": 6.0,
+							"store": 3
+						}
+					], [{
+							"amount": 0.5,
+							"store": 4
+						}, {
+							"amount": 2.5,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 4
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 37.0,
+							"store": 7
+						}, {
+							"amount": 3.0,
+							"store": 2
+						}
+					], [{
+							"amount": 37.0,
+							"store": 1
+						}, {
+							"amount": 3.0,
+							"store": 2
+						}
+					], [{
+							"amount": 30.5,
+							"store": 2
+						}, {
+							"amount": 9.5,
+							"store": 10
+						}
+					], [{
+							"amount": 27.5,
+							"store": 10
+						}, {
+							"amount": 12.5,
+							"store": 9
+						}
+					], [{
+							"amount": 23.0,
+							"store": 9
+						}, {
+							"amount": 6.0,
+							"store": 2
+						}, {
+							"amount": 9.5,
+							"store": 10
+						}
+					], [{
+							"amount": 30.5,
+							"store": 2
+						}, {
+							"amount": 9.5,
+							"store": 9
+						}
+					], [{
+							"amount": 3.0,
+							"store": 9
+						}, {
+							"amount": 6.0,
+							"store": 2
+						}, {
+							"amount": 27.5,
+							"store": 10
+						}
+					], [{
+							"amount": 9.5,
+							"store": 10
+						}, {
+							"amount": 30.5,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 9
+						}
+					], [{
+							"amount": 32.5,
+							"store": 9
+						}, {
+							"amount": 7.5,
+							"store": 10
+						}
+					], [{
+							"amount": 3.0,
+							"store": 9
+						}, {
+							"amount": 20.0,
+							"store": 10
+						}, {
+							"amount": 6.0,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 36.0,
+							"store": 5
+						}, {
+							"amount": 4.0,
+							"store": 3
+						}
+					], [{
+							"amount": 36.5,
+							"store": 8
+						}, {
+							"amount": 3.5,
+							"store": 4
+						}
+					], [{
+							"amount": 33.0,
+							"store": 4
+						}, {
+							"amount": 7.0,
+							"store": 3
+						}
+					], [{
+							"amount": 37.5,
+							"store": 6
+						}, {
+							"amount": 2.5,
+							"store": 4
+						}
+					], [{
+							"amount": 26.5,
+							"store": 3
+						}, {
+							"amount": 1.0,
+							"store": 4
+						}
+					], [{
+							"amount": 35.5,
+							"store": 4
+						}, {
+							"amount": 4.5,
+							"store": 3
+						}
+					], [{
+							"amount": 1.0,
+							"store": 4
+						}, {
+							"amount": 6.5,
+							"store": 3
+						}
+					], [{
+							"amount": 31.0,
+							"store": 3
+						}
+					], [{
+							"amount": 35.5,
+							"store": 4
+						}, {
+							"amount": 4.5,
+							"store": 3
+						}
+					], [{
+							"amount": 1.0,
+							"store": 4
+						}, {
+							"amount": 2.0,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 5
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 39.0,
+							"store": 7
+						}, {
+							"amount": 1.0,
+							"store": 2
+						}
+					], [{
+							"amount": 38.5,
+							"store": 1
+						}, {
+							"amount": 1.5,
+							"store": 2
+						}
+					], [{
+							"amount": 34.5,
+							"store": 2
+						}, {
+							"amount": 5.5,
+							"store": 10
+						}
+					], [{
+							"amount": 33.0,
+							"store": 10
+						}, {
+							"amount": 7.0,
+							"store": 9
+						}
+					], [{
+							"amount": 30.0,
+							"store": 9
+						}, {
+							"amount": 2.5,
+							"store": 2
+						}, {
+							"amount": 5.5,
+							"store": 10
+						}
+					], [{
+							"amount": 34.5,
+							"store": 2
+						}, {
+							"amount": 5.5,
+							"store": 9
+						}
+					], [{
+							"amount": 1.5,
+							"store": 9
+						}, {
+							"amount": 2.5,
+							"store": 2
+						}, {
+							"amount": 33.0,
+							"store": 10
+						}
+					], [{
+							"amount": 5.5,
+							"store": 10
+						}, {
+							"amount": 34.5,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 9
+						}
+					], [{
+							"amount": 35.5,
+							"store": 9
+						}, {
+							"amount": 4.5,
+							"store": 10
+						}
+					], [{
+							"amount": 1.5,
+							"store": 9
+						}, {
+							"amount": 28.5,
+							"store": 10
+						}, {
+							"amount": 2.5,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 38.5,
+							"store": 5
+						}, {
+							"amount": 1.5,
+							"store": 3
+						}
+					], [{
+							"amount": 39.0,
+							"store": 8
+						}, {
+							"amount": 1.0,
+							"store": 4
+						}
+					], [{
+							"amount": 36.5,
+							"store": 4
+						}, {
+							"amount": 3.5,
+							"store": 3
+						}
+					], [{
+							"amount": 39.5,
+							"store": 6
+						}, {
+							"amount": 0.5,
+							"store": 4
+						}
+					], [{
+							"amount": 34.0,
+							"store": 3
+						}, {
+							"amount": 0.5,
+							"store": 4
+						}
+					], [{
+							"amount": 37.0,
+							"store": 4
+						}, {
+							"amount": 3.0,
+							"store": 3
+						}
+					], [{
+							"amount": 0.5,
+							"store": 4
+						}, {
+							"amount": 2.0,
+							"store": 3
+						}
+					], [{
+							"amount": 37.0,
+							"store": 3
+						}
+					], [{
+							"amount": 37.0,
+							"store": 4
+						}, {
+							"amount": 2.0,
+							"store": 3
+						}
+					], [{
+							"amount": 0.5,
+							"store": 4
+						}, {
+							"amount": 37.0,
+							"store": 3
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 6
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 22.49999999994907,
+							"store": 7
+						}, {
+							"amount": 17.50000000005093,
+							"store": 2
+						}
+					], [{
+							"amount": 40,
+							"store": 1
+						}
+					], [{
+							"amount": 21.99999999994907,
+							"store": 2
+						}, {
+							"amount": 18.00000000005093,
+							"store": 10
+						}
+					], [{
+							"amount": 15.499999999949068,
+							"store": 10
+						}, {
+							"amount": 0.5,
+							"store": 1
+						}, {
+							"amount": 24.00000000005093,
+							"store": 9
+						}
+					], [{
+							"amount": 16.49999999994907,
+							"store": 9
+						}, {
+							"amount": 17.50000000005093,
+							"store": 2
+						}, {
+							"amount": 6.0,
+							"store": 10
+						}
+					], [{
+							"amount": 21.99999999994907,
+							"store": 2
+						}, {
+							"amount": 18.00000000005093,
+							"store": 1
+						}
+					], [{
+							"amount": 24.00000000005093,
+							"store": 9
+						}, {
+							"amount": 15.999999999949068,
+							"store": 2
+						}
+					], [{
+							"amount": 12.000000000050932,
+							"store": 10
+						}, {
+							"amount": 1.5000000001018634,
+							"store": 2
+						}, {
+							"amount": 16.49999999994907,
+							"store": 9
+						}, {
+							"amount": 9.999999999898137,
+							"store": 1
+						}
+					], [{
+							"amount": 24.00000000005093,
+							"store": 9
+						}, {
+							"amount": 15.999999999949068,
+							"store": 10
+						}
+					], [{
+							"amount": 16.49999999994907,
+							"store": 9
+						}, {
+							"amount": 5.5,
+							"store": 10
+						}, {
+							"amount": 18.00000000005093,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 40,
+							"store": 5
+						}
+					], [{
+							"amount": 19.0,
+							"store": 7
+						}, {
+							"amount": 21.0,
+							"store": 8
+						}
+					], [{
+							"amount": 39.5,
+							"store": 4
+						}, {
+							"amount": 0.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40,
+							"store": 6
+						}
+					], [{
+							"amount": 40,
+							"store": 3
+						}
+					], [{
+							"amount": 1.0,
+							"store": 5
+						}, {
+							"amount": 7.5,
+							"store": 10
+						}, {
+							"amount": 19.0,
+							"store": 8
+						}, {
+							"amount": 2.0,
+							"store": 3
+						}, {
+							"amount": 1.0,
+							"store": 6
+						}
+					], [{
+							"amount": 40.0,
+							"store": 5
+						}, {
+							"amount": 0.0,
+							"store": 8
+						}
+					], [{
+							"amount": 1.0,
+							"store": 5
+						}, {
+							"amount": 39.0,
+							"store": 3
+						}
+					], [{
+							"amount": 40.0,
+							"store": 5
+						}, {
+							"amount": 0.0,
+							"store": 3
+						}
+					], [{
+							"amount": 1.0,
+							"store": 5
+						}, {
+							"amount": 21.5,
+							"store": 8
+						}, {
+							"amount": 1.0,
+							"store": 3
+						}, {
+							"amount": 16.5,
+							"store": 6
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 7
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 34.5,
+							"store": 7
+						}, {
+							"amount": 5.5,
+							"store": 2
+						}
+					], [{
+							"amount": 40,
+							"store": 1
+						}
+					], [{
+							"amount": 36.0,
+							"store": 2
+						}, {
+							"amount": 4.0,
+							"store": 10
+						}
+					], [{
+							"amount": 18.0,
+							"store": 10
+						}, {
+							"amount": 2.0,
+							"store": 1
+						}, {
+							"amount": 20.0,
+							"store": 9
+						}
+					], [{
+							"amount": 22.0,
+							"store": 9
+						}, {
+							"amount": 5.5,
+							"store": 2
+						}, {
+							"amount": 4.0,
+							"store": 10
+						}, {
+							"amount": 8.5,
+							"store": 1
+						}
+					], [{
+							"amount": 36.0,
+							"store": 2
+						}, {
+							"amount": 4.0,
+							"store": 1
+						}
+					], [{
+							"amount": 20.0,
+							"store": 9
+						}, {
+							"amount": 5.5,
+							"store": 2
+						}, {
+							"amount": 14.5,
+							"store": 1
+						}
+					], [{
+							"amount": 18.0,
+							"store": 10
+						}, {
+							"amount": 22.0,
+							"store": 2
+						}
+					], [{
+							"amount": 22.0,
+							"store": 9
+						}, {
+							"amount": 4.0,
+							"store": 10
+						}, {
+							"amount": 14.0,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 1
+						}
+					], [{
+							"amount": 20.0,
+							"store": 9
+						}, {
+							"amount": 18.0,
+							"store": 10
+						}, {
+							"amount": 2.0,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 40,
+							"store": 5
+						}
+					], [{
+							"amount": 8.5,
+							"store": 7
+						}, {
+							"amount": 31.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40,
+							"store": 4
+						}
+					], [{
+							"amount": 40,
+							"store": 6
+						}
+					], [{
+							"amount": 40,
+							"store": 3
+						}
+					], [{
+							"amount": 2.5,
+							"store": 5
+						}, {
+							"amount": 30.0,
+							"store": 10
+						}, {
+							"amount": 7.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40.0,
+							"store": 5
+						}, {
+							"amount": 0.0,
+							"store": 8
+						}
+					], [{
+							"amount": 2.5,
+							"store": 5
+						}, {
+							"amount": 3.5,
+							"store": 3
+						}, {
+							"amount": 3.5,
+							"store": 6
+						}, {
+							"amount": 3.0,
+							"store": 8
+						}
+					], [{
+							"amount": 1.0,
+							"store": 4
+						}, {
+							"amount": 39.0,
+							"store": 5
+						}
+					], [{
+							"amount": 1.0,
+							"store": 5
+						}, {
+							"amount": 39.0,
+							"store": 4
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 8
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 24.0,
+							"store": 7
+						}, {
+							"amount": 16.0,
+							"store": 2
+						}
+					], [{
+							"amount": 40,
+							"store": 1
+						}
+					], [{
+							"amount": 26.5,
+							"store": 2
+						}, {
+							"amount": 13.5,
+							"store": 10
+						}
+					], [{
+							"amount": 9.0,
+							"store": 10
+						}, {
+							"amount": 3.5,
+							"store": 1
+						}, {
+							"amount": 27.5,
+							"store": 9
+						}
+					], [{
+							"amount": 15.0,
+							"store": 9
+						}, {
+							"amount": 16.0,
+							"store": 2
+						}, {
+							"amount": 9.0,
+							"store": 10
+						}
+					], [{
+							"amount": 26.5,
+							"store": 2
+						}, {
+							"amount": 13.5,
+							"store": 1
+						}
+					], [{
+							"amount": 27.5,
+							"store": 9
+						}, {
+							"amount": 12.5,
+							"store": 2
+						}
+					], [{
+							"amount": 4.5,
+							"store": 10
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}, {
+							"amount": 15.0,
+							"store": 9
+						}, {
+							"amount": 17.0,
+							"store": 1
+						}
+					], [{
+							"amount": 27.5,
+							"store": 9
+						}, {
+							"amount": 12.5,
+							"store": 10
+						}
+					], [{
+							"amount": 15.0,
+							"store": 9
+						}, {
+							"amount": 5.5,
+							"store": 10
+						}, {
+							"amount": 19.5,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 40,
+							"store": 5
+						}
+					], [{
+							"amount": 20.5,
+							"store": 7
+						}, {
+							"amount": 19.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40,
+							"store": 4
+						}
+					], [{
+							"amount": 40,
+							"store": 6
+						}
+					], [{
+							"amount": 40,
+							"store": 3
+						}
+					], [{
+							"amount": 4.5,
+							"store": 5
+						}, {
+							"amount": 21.0,
+							"store": 10
+						}, {
+							"amount": 14.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40.0,
+							"store": 5
+						}, {
+							"amount": 0.0,
+							"store": 8
+						}
+					], [{
+							"amount": 4.5,
+							"store": 5
+						}, {
+							"amount": 5.5,
+							"store": 3
+						}, {
+							"amount": 4.5,
+							"store": 6
+						}, {
+							"amount": 9.5,
+							"store": 8
+						}
+					], [{
+							"amount": 2.0,
+							"store": 4
+						}, {
+							"amount": 38.0,
+							"store": 5
+						}
+					], [{
+							"amount": 2.0,
+							"store": 5
+						}, {
+							"amount": 38.0,
+							"store": 4
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 9
+	}, {
+		"collection_of_runs": [{
+				"runs": [[{
+							"amount": 36.5,
+							"store": 7
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}
+					], [{
+							"amount": 40,
+							"store": 1
+						}
+					], [{
+							"amount": 40.0,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 10
+						}
+					], [{
+							"amount": 4.0,
+							"store": 10
+						}, {
+							"amount": 5.0,
+							"store": 1
+						}, {
+							"amount": 31.0,
+							"store": 9
+						}
+					], [{
+							"amount": 12.0,
+							"store": 9
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}, {
+							"amount": 24.5,
+							"store": 1
+						}
+					], [{
+							"amount": 40.0,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 1
+						}
+					], [{
+							"amount": 31.0,
+							"store": 9
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}, {
+							"amount": 5.5,
+							"store": 1
+						}
+					], [{
+							"amount": 40.0,
+							"store": 2
+						}, {
+							"amount": 0.0,
+							"store": 9
+						}
+					], [{
+							"amount": 12.0,
+							"store": 9
+						}, {
+							"amount": 3.5,
+							"store": 2
+						}, {
+							"amount": 10.0,
+							"store": 1
+						}
+					], [{
+							"amount": 31.0,
+							"store": 9
+						}, {
+							"amount": 9.0,
+							"store": 2
+						}
+					]],
+				"warehouse": 1
+			}, {
+				"runs": [[{
+							"amount": 40,
+							"store": 5
+						}
+					], [{
+							"amount": 8.5,
+							"store": 7
+						}, {
+							"amount": 31.5,
+							"store": 8
+						}
+					], [{
+							"amount": 40,
+							"store": 4
+						}
+					], [{
+							"amount": 40,
+							"store": 6
+						}
+					], [{
+							"amount": 40,
+							"store": 3
+						}
+					], [{
+							"amount": 4.0,
+							"store": 5
+						}, {
+							"amount": 36.0,
+							"store": 10
+						}
+					], [{
+							"amount": 3.5,
+							"store": 10
+						}, {
+							"amount": 36.5,
+							"store": 5
+						}
+					], [{
+							"amount": 3.5,
+							"store": 5
+						}, {
+							"amount": 6.0,
+							"store": 3
+						}, {
+							"amount": 5.0,
+							"store": 6
+						}, {
+							"amount": 13.0,
+							"store": 8
+						}, {
+							"amount": 12.5,
+							"store": 10
+						}
+					], [{
+							"amount": 2.5,
+							"store": 4
+						}, {
+							"amount": 37.5,
+							"store": 5
+						}
+					], [{
+							"amount": 23.5,
+							"store": 10
+						}, {
+							"amount": 3.0,
+							"store": 5
+						}, {
+							"amount": 13.5,
+							"store": 4
+						}
+					]],
+				"warehouse": 2
+			}
+		],
+		"time": 10
+	}
+]
