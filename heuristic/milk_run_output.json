@@ -1,0 +1,1394 @@
+{
+	"all_runs_in_period_t": [{
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 34.5,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 5.5,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 35.0,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 5.0,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 25.0,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 15.0,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 19.0,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 21.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 14.5,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 37.0,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 3.0,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 32.0,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 8.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 40.0,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 0.0,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 35.5,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 4.5,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 27.5,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 1
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 34.5,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 5.5,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 34.5,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 5.5,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 24.0,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 16.0,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 18.5,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 21.5,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 13.5,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 34.5,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 5.5,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 30.0,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 10.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 35.5,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 4.5,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 31.0,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 9.0,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 15.5,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 2
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 34.5,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 5.5,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 34.5,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 5.5,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 24.5,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 15.5,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 19.0,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 21.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 14.0,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 34.0,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 6.0,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 29.0,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 11.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 36.0,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 4.0,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 31.5,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 8.5,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 15.0,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 3
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 36.5,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 3.5,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 35.0,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 5.0,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 28.0,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 12.0,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 23.5,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 16.5,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 19.5,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 35.5,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 4.5,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 31.0,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 9.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 37.0,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 3.0,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 33.0,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 7.0,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 18.5,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 4
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 37.0,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 3.0,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 35.5,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 4.5,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 29.5,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 10.5,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 26.0,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 14.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 23.0,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 36.5,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 3.5,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 32.5,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 7.5,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 37.5,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 2.5,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 35.0,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 5.0,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 24.0,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 5
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 38.5,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 1.5,
+								"cost": 1104.536102,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 37.0,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 3.0,
+								"cost": 1149.478142,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1274.754878,
+								"store": -1
+							}
+						], [{
+								"amount": 34.5,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 5.5,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 31.5,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 8.5,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 30.0,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 39.0,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 1.0,
+								"cost": 921.9544457,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 37.5,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 2.5,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 39.0,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 1.0,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 38.5,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 1.5,
+								"cost": 1515.585695,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 33.5,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 6
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 40,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 0,
+								"cost": 170.2938637,
+								"store": -1
+							}
+						], [{
+								"amount": 40,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						], [{
+								"amount": 34.0,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 6.0,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 33.5,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 6.5,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 15.0,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 0.5,
+								"cost": 1759.602228,
+								"store": 1
+							}, {
+								"amount": 0.5,
+								"cost": 1283.160161,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 40,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						], [{
+								"amount": 19.5,
+								"cost": 1821.0162,
+								"store": 10
+							}, {
+								"amount": 7.5,
+								"cost": 1005.683847,
+								"store": 7
+							}, {
+								"amount": 13.0,
+								"cost": 808.9499366,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 28.0,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 12.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 0,
+								"cost": 640.7027392,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 27.5,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 2.0,
+								"cost": 984.9365462,
+								"store": 3
+							}, {
+								"amount": 1.0,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 0.5,
+								"cost": 1522.005256,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 7
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 40,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 0,
+								"cost": 170.2938637,
+								"store": -1
+							}
+						], [{
+								"amount": 40,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						], [{
+								"amount": 4.0,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 36.0,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 5.5,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 22.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 2.0,
+								"cost": 1759.602228,
+								"store": 1
+							}, {
+								"amount": 2.0,
+								"cost": 1283.160161,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 40,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						], [{
+								"amount": 20.5,
+								"cost": 1821.0162,
+								"store": 10
+							}, {
+								"amount": 19.5,
+								"cost": 1005.683847,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1659.186548,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 0,
+								"cost": 640.7027392,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 19.5,
+								"cost": 1659.186548,
+								"store": 7
+							}, {
+								"amount": 2.5,
+								"cost": 808.9499366,
+								"store": 5
+							}, {
+								"amount": 18.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 23.0,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 3.5,
+								"cost": 984.9365462,
+								"store": 3
+							}, {
+								"amount": 3.5,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 2.0,
+								"cost": 1522.005256,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 8
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 40,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 0,
+								"cost": 170.2938637,
+								"store": -1
+							}
+						], [{
+								"amount": 40,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						], [{
+								"amount": 4.5,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 35.5,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 7.0,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 33.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 2.0,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 3.5,
+								"cost": 1759.602228,
+								"store": 1
+							}, {
+								"amount": 2.5,
+								"cost": 1283.160161,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 40,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						], [{
+								"amount": 8.5,
+								"cost": 1821.0162,
+								"store": 10
+							}, {
+								"amount": 31.5,
+								"cost": 1005.683847,
+								"store": 7
+							}, {
+								"amount": 0,
+								"cost": 1659.186548,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 0,
+								"cost": 640.7027392,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 8.5,
+								"cost": 1659.186548,
+								"store": 7
+							}, {
+								"amount": 4.5,
+								"cost": 808.9499366,
+								"store": 5
+							}, {
+								"amount": 27.0,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 15.0,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 5.5,
+								"cost": 984.9365462,
+								"store": 3
+							}, {
+								"amount": 4.5,
+								"cost": 530.7541804,
+								"store": 6
+							}, {
+								"amount": 3.5,
+								"cost": 1522.005256,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 9
+		}, {
+			"collection_of_runs": [{
+					"runs": [[{
+								"amount": 40,
+								"cost": 170.2938637,
+								"store": 1
+							}, {
+								"amount": 0,
+								"cost": 170.2938637,
+								"store": -1
+							}
+						], [{
+								"amount": 40,
+								"cost": 1387.551801,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						], [{
+								"amount": 24.5,
+								"cost": 1274.754878,
+								"store": 7
+							}, {
+								"amount": 15.5,
+								"cost": 580.0862005,
+								"store": 2
+							}, {
+								"amount": 0,
+								"cost": 1283.160161,
+								"store": -1
+							}
+						], [{
+								"amount": 28.0,
+								"cost": 1283.160161,
+								"store": 2
+							}, {
+								"amount": 12.0,
+								"cost": 625.8594091,
+								"store": 10
+							}, {
+								"amount": 0,
+								"cost": 1903.785702,
+								"store": -1
+							}
+						], [{
+								"amount": 23.5,
+								"cost": 1903.785702,
+								"store": 10
+							}, {
+								"amount": 5.0,
+								"cost": 1759.602228,
+								"store": 1
+							}, {
+								"amount": 3.0,
+								"cost": 1283.160161,
+								"store": 9
+							}, {
+								"amount": 0,
+								"cost": 1387.551801,
+								"store": -1
+							}
+						]],
+					"warehouse": 1
+				}, {
+					"runs": [[{
+								"amount": 40,
+								"cost": 794.7955712,
+								"store": 8
+							}, {
+								"amount": 0,
+								"cost": 794.7955712,
+								"store": -2
+							}
+						], [{
+								"amount": 8.0,
+								"cost": 1821.0162,
+								"store": 10
+							}, {
+								"amount": 20.5,
+								"cost": 1005.683847,
+								"store": 7
+							}, {
+								"amount": 11.5,
+								"cost": 808.9499366,
+								"store": 5
+							}, {
+								"amount": 0,
+								"cost": 926.984358,
+								"store": -2
+							}
+						], [{
+								"amount": 32.5,
+								"cost": 926.984358,
+								"store": 5
+							}, {
+								"amount": 7.5,
+								"cost": 749.4664769,
+								"store": 4
+							}, {
+								"amount": 0,
+								"cost": 1302.689526,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 640.7027392,
+								"store": 3
+							}, {
+								"amount": 0,
+								"cost": 640.7027392,
+								"store": -2
+							}
+						], [{
+								"amount": 40,
+								"cost": 733.4848328,
+								"store": 6
+							}, {
+								"amount": 0,
+								"cost": 733.4848328,
+								"store": -2
+							}
+						], [{
+								"amount": 35.0,
+								"cost": 1302.689526,
+								"store": 4
+							}, {
+								"amount": 5.0,
+								"cost": 984.9365462,
+								"store": 3
+							}, {
+								"amount": 0,
+								"cost": 640.7027392,
+								"store": -2
+							}
+						]],
+					"warehouse": 2
+				}
+			],
+			"time": 10
+		}
+	],
+	"total_cost": 319112.6207722
+}
