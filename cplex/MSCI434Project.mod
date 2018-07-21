@@ -29,6 +29,7 @@ int warehouseCapacities[W] = ...;
 float warehouseHoldingCosts[W][P] = ...;
 int supplierCostPerPallet[I][P] = ...;
 int supplierMinOrderSize[I] = ...;
+int fixedCostFromSupplierToWarehouse = ...;
 
 // Warehouse to store:
 // Set warehouse capacities to infinite to determine
@@ -46,15 +47,26 @@ dvar int+ Y[P][W][S] in BINARY; // Whether a product (p) is shipped from warehou
 dvar float+ Z[P][W][S][T]; // Number of products (p) shipped from warehouse (w) to store (s) in period (t)
 dvar int+ NumTrucks[W][S][T]; // Because ceil(Z) is a non-linear operation, we must an equivalent linear approach to compute ceilings.
 
+dvar float+ costOfGoods;
+dvar float+ whHoldingCost[P][W][T];
+dvar float+ fixedCostTotal;
+dvar float+ varTransCostTotal;
+dvar float+ fcFromSupToWh;
+
 minimize(
-  sum(p in P, i in I, w in W, t in T)(supplierCostPerPallet[i][p]*X[p][i][w][t]) + // Cost of goods
-  sum(p in P, w in W, t in T)(warehouseHoldingCosts[w][p]*(sum(i in I)(X[p][i][w][t]) - sum(s in S)(Z[p][w][s][t]))) + // Warehouse holding costs
-  sum(w in W, s in S, t in T)(
-  	costPerKm*distances[s][w]*NumTrucks[w][s][t] +
-  	fixedCostPerTruck*NumTrucks[w][s][t]));
+  costOfGoods + // Cost of goods
+  sum (p in P, w in W, t in T)(whHoldingCost[p][w][t]) + // Warehouse holding costs
+  varTransCostTotal +
+  fixedCostTotal + 
+  fcFromSupToWh);
 
 // Constraints
 subject to {
+	sum(p in P, i in I, w in W, t in T)(supplierCostPerPallet[i][p]*X[p][i][w][t]) == costOfGoods;
+	// forall(t in T) sum(p in P, w in W)(warehouseHoldingCosts[w][p]*(sum(i in I)(X[p][i][w][t]) - sum(s in S)(Z[p][w][s][t]))) == whHoldingCost;
+	sum(p in P, i in I, w in W, t in T)(fixedCostFromSupplierToWarehouse*R[p][i][w][t]) == fcFromSupToWh;
+	sum(w in W, s in S, t in T)(fixedCostPerTruck*NumTrucks[w][s][t]) == fixedCostTotal;
+	sum(w in W, s in S, t in T)(costPerKm*distances[s][w]*NumTrucks[w][s][t]) == varTransCostTotal;
 	// Warehouse-store sole sourcing
 	forall(p in P, s in S) sum(w in W) Y[p][w][s] == 1;
 	// Supplier min order
@@ -65,9 +77,10 @@ subject to {
 	//forall (p in P, i in I, t in T) sum(w in W) (X[p][i][w][t] - R[p][i][w][t]*supplierMinOrderSize[i]) >= 0;
 	//forall (p in P, i in I, t in T) sum(w in W) (X[p][i][w][t] - R[p][i][w][t]*M) <= 0;
 	// Warehouse capacity
-	forall (w in W, t in T) sum (p in P) ((sum(i in I) X[p][i][w][t]) - (sum(s in S) Z[p][w][s][t])) <= warehouseCapacities[w];
+	forall (p in P, w in W, t in T) ((sum(i in I) X[p][i][w][t]) - (sum(s in S) Z[p][w][s][t])) <= warehouseCapacities[w];
 	// Supplier to warehouse product transportation
 	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) >= 0;
+	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) == whHoldingCost[p][w][t];
 	// Demand at stores
 	forall (p in P, s in S, t in T) sum(w in W) (Z[p][w][s][t] - Y[p][w][s]*forecastedDemand[p][s][t]) >= 0;
 	// Equivalent contraints to performing a ceil() operation. Used to calculate NumTrucks.

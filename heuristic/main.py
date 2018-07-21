@@ -4,6 +4,8 @@
 import pandas as pd
 import simplejson as json
 
+# Set up program parameters defined in the model
+
 z_df: pd.DataFrame = pd.read_csv("z.csv", names=['P', 'W', 'S', 'T', 'Value'])
 num_trucks_df = pd.read_csv("num_trucks.csv", names=['W', 'S', 'T', 'Value'])
 
@@ -27,8 +29,6 @@ warehouses_nearest_neighbours = {
     2: [8, 10, 5, 3, 6, 7, 2, 4, 9, 1]
 
 }
-
-num_stores = 10
 
 
 class AllRunsInTimeDuringPeriod:
@@ -93,54 +93,81 @@ def main():
                 9: 0,
                 10: 0
             }
-
+            # Get the nearest neighbours for the current warehouse
             warehouse_nearest_neighbours = warehouses_nearest_neighbours[warehouse]
             warehouse_neighbour_index = 0
+            # Set-up the collection of runs for this warehouse in this period.
             collection_of_runs = CollectionOfRuns(warehouse)
-            while warehouse_neighbour_index < num_stores:
-                next_closest_store_to_warehouse = warehouse_nearest_neighbours[warehouse_neighbour_index]
-                nearest_neighbours_to_current_store = stores_nearest_neighbours[next_closest_store_to_warehouse]
-
-                store_closest_to_current_store_index = 0
-                unfulfilled_shipment_amount = truck_capacity
+            while warehouse_neighbour_index < len(warehouse_nearest_neighbours):
+                # Since you are currently at the warehouse, your nearest neighbours
+                # are the nearest neighbours to the warehouse.
+                # Later, once you move to a store, the current_nearest_neighbours will
+                # be set to the current nearest neighbours at that store.
+                current_nearest_neighbours = warehouse_nearest_neighbours
+                store_closest_to_current_location_index = warehouse_neighbour_index
+                # You have not shipped anything yet, so you have a full truck of products
+                current_truck_volume_usage = truck_capacity
                 current_run = []  # list of shipments
 
-                while store_closest_to_current_store_index < num_stores - 1:
-                    potential_next_store = nearest_neighbours_to_current_store[store_closest_to_current_store_index]
+                while store_closest_to_current_location_index < len(current_nearest_neighbours):
+                    # Get the closest store to the current location
+                    next_store = current_nearest_neighbours[store_closest_to_current_location_index]
+                    # Filter the main data source to this warehouse, store and time period
                     all_product_shipped_to_next_stop = z_df.query(
-                        'W == ' + str(warehouse) + ' and S == ' + str(potential_next_store) + ' and T == ' + str(t))
-                    num_to_ship = all_product_shipped_to_next_stop['Value'].sum() - satisfied_demand[potential_next_store]
-                    if num_to_ship == 0:
-                        store_closest_to_current_store_index += 1
-                        continue
-                    if num_to_ship > unfulfilled_shipment_amount:
-                        satisfied_demand[potential_next_store] += unfulfilled_shipment_amount
-                        shipment = Shipment(potential_next_store, unfulfilled_shipment_amount)
-                        current_run.append(shipment)
-                        if len(collection_of_runs.runs) == 1 and len(collection_of_runs.runs[0]) == 0:
-                            collection_of_runs.runs[0] = current_run
+                        'W == ' + str(warehouse) + ' and S == ' + str(next_store) + ' and T == ' + str(t))
+                    # The number of units to ship the sum of all demand minus the satisfied demand in this period
+                    num_to_ship = all_product_shipped_to_next_stop['Value'].sum() - satisfied_demand[next_store]
+                    # To account for floating point errors, avoid equalities.
+                    if abs(num_to_ship) < 0.01:
+                        if current_nearest_neighbours == warehouse_nearest_neighbours:
+                            # break out of while, we want to increment the WH index since at the WH right now
+                            store_closest_to_current_location_index = len(
+                                current_nearest_neighbours)
                         else:
-                            collection_of_runs.runs.append(current_run)
-                        current_run = []
-                        store_closest_to_current_store_index = num_stores
-                        unfulfilled_shipment_amount = truck_capacity
+                            # If you don't have anything to ship, move onto the next store that might.
+                            store_closest_to_current_location_index += 1
+                    elif num_to_ship > current_truck_volume_usage:
+                        # You have too much stuff to ship, you will have to return to the warehouse after delivering
+                        # the rest of your load.
+                        satisfied_demand[next_store] += current_truck_volume_usage
+                        shipment = Shipment(next_store, current_truck_volume_usage)
+                        current_run.append(shipment)
+                        # 2d arrays start initialized with an empty value,
+                        # so rather than appending the first element, replace it.
+
+                        # Reset the current variables to prepare for another run.
+                        store_closest_to_current_location_index = len(current_nearest_neighbours)  # break out of while
                         # Do not increment store_closest_to_current_store_index
-                        continue
-                    unfulfilled_shipment_amount -= num_to_ship
-                    shipment = Shipment(potential_next_store, num_to_ship)
-                    current_run.append(shipment)
-                    satisfied_demand[potential_next_store] = num_to_ship
-                    store_closest_to_current_store_index += 1
+                    else:
+                        # You have fulfilled the demand at this store, move onto the next one
+                        current_truck_volume_usage -= num_to_ship
+                        shipment = Shipment(next_store, num_to_ship)
+                        current_run.append(shipment)
+                        satisfied_demand[next_store] += num_to_ship
+                        # Replace the previous nearest neighbours with the current nearest neighbours
+                        current_nearest_neighbours = stores_nearest_neighbours[next_store]
+                        # Since we are starting again from a new store, set the index to 0 to exhaust all possibilities
+                        store_closest_to_current_location_index = 0
                 if len(current_run) > 0:
-                    collection_of_runs.runs.append(current_run)
+                    if len(collection_of_runs.runs) == 1 and len(collection_of_runs.runs[0]) == 0:
+                        collection_of_runs.runs[0] = current_run
+                    else:
+                        collection_of_runs.runs.append(current_run)
+                # You have just fulfilled the demand of the store closest to the warehouse that had unfilled demand,
+                # so go to the next store
                 warehouse_neighbour_index += 1
+            # Add all runs in this period to a master collection for the period
             all_runs_in_period_t.collection_of_runs.append(collection_of_runs)
+        # Add all runs across all periods to the final result
         result.append(all_runs_in_period_t)
     return result
 
 
+# Useful for running Python programs
 if __name__ == '__main__':
+    # Run the main program
     res = main()
+    # Output the result to a text file called Output.txt
     json_res = json.dumps(res, sort_keys=True, cls=ComplexEncoder)
     with open("Output.txt", "w") as text_file:
         text_file.write(json_res)

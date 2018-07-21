@@ -71,6 +71,7 @@ distances =
  [190.3785702,182.10162]];
  
 fixedCostPerTruck = 250; // $/truck
+fixedCostFromSupplierToWarehouse = 1000; // $/shipment, infinite capacity, made up
 
 costPerKm = 10; // $/km
 
