@@ -31,15 +31,6 @@ int supplierCostPerPallet[I][P] = ...;
 int supplierMinOrderSize[I] = ...;
 int fixedCostFromSupplierToWarehouse = ...;
 
-// Warehouse to store:
-// Set warehouse capacities to infinite to determine
-// which warehouses are "closest" to each store.
-// This is step 3.
-// We are about product, store and warehouse.
-// Demand is not divisible.
-// One warehouse can supply one or more stores with a particular product,
-// but a store must receive its full demand from a single warehouse for a particular period.
-
 // Decision variables
 dvar int+ R[P][I][W][T] in BINARY; // Whether a product (p) is shipped from supplier (i) to warehouse (w) in period (t)
 dvar float+ X[P][I][W][T]; // Number of products (p) shipped from supplier (i) to warehouse (w) in period (t)
@@ -54,7 +45,7 @@ dvar float+ varTransCostTotal;
 dvar float+ fcFromSupToWh;
 
 minimize(
-  costOfGoods + // Cost of goods
+  costOfGoods +
   sum (p in P, w in W, t in T)(whHoldingCost[p][w][t]) + // Warehouse holding costs
   varTransCostTotal +
   fixedCostTotal + 
@@ -62,11 +53,15 @@ minimize(
 
 // Constraints
 subject to {
+	// These constraints are objective function terms.
+	// However, to easily determine the results of these terms, we make them constraints.
+	// The resulting decision variable values are shown in the problem browser in CPLEX.
 	sum(p in P, i in I, w in W, t in T)(supplierCostPerPallet[i][p]*X[p][i][w][t]) == costOfGoods;
-	// forall(t in T) sum(p in P, w in W)(warehouseHoldingCosts[w][p]*(sum(i in I)(X[p][i][w][t]) - sum(s in S)(Z[p][w][s][t]))) == whHoldingCost;
 	sum(p in P, i in I, w in W, t in T)(fixedCostFromSupplierToWarehouse*R[p][i][w][t]) == fcFromSupToWh;
 	sum(w in W, s in S, t in T)(fixedCostPerTruck*NumTrucks[w][s][t]) == fixedCostTotal;
 	sum(w in W, s in S, t in T)(costPerKm*distances[s][w]*NumTrucks[w][s][t]) == varTransCostTotal;
+	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) == whHoldingCost[p][w][t];
+	
 	// Warehouse-store sole sourcing
 	forall(p in P, s in S) sum(w in W) Y[p][w][s] == 1;
 	// Supplier min order
@@ -80,7 +75,6 @@ subject to {
 	forall (p in P, w in W, t in T) ((sum(i in I) X[p][i][w][t]) - (sum(s in S) Z[p][w][s][t])) <= warehouseCapacities[w];
 	// Supplier to warehouse product transportation
 	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) >= 0;
-	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) == whHoldingCost[p][w][t];
 	// Demand at stores
 	forall (p in P, s in S, t in T) sum(w in W) (Z[p][w][s][t] - Y[p][w][s]*forecastedDemand[p][s][t]) >= 0;
 	// Equivalent contraints to performing a ceil() operation. Used to calculate NumTrucks.
