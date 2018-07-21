@@ -6,7 +6,7 @@ import simplejson as json
 
 # Set up program parameters defined in the model
 
-z_df: pd.DataFrame = pd.read_csv("z.csv", names=['P', 'W', 'S', 'T', 'Value'])
+z_df: pd.DataFrame = pd.read_csv("warehouse_to_store_shipments_p_w_s_t.csv", names=['P', 'W', 'S', 'T', 'Value'])
 num_trucks_df = pd.read_csv("num_trucks.csv", names=['W', 'S', 'T', 'Value'])
 
 truck_capacity = 40

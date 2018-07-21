@@ -38,6 +38,8 @@ dvar int+ Y[P][W][S] in BINARY; // Whether a product (p) is shipped from warehou
 dvar float+ Z[P][W][S][T]; // Number of products (p) shipped from warehouse (w) to store (s) in period (t)
 dvar int+ NumTrucks[W][S][T]; // Because ceil(Z) is a non-linear operation, we must an equivalent linear approach to compute ceilings.
 
+// There aren't true decision variables.
+// Rather, they are used to clearly see the result in the problem browser.
 dvar float+ costOfGoods;
 dvar float+ whHoldingCost[P][W][T];
 dvar float+ fixedCostTotal;
@@ -59,7 +61,7 @@ subject to {
 	sum(p in P, i in I, w in W, t in T)(supplierCostPerPallet[i][p]*X[p][i][w][t]) == costOfGoods;
 	sum(p in P, i in I, w in W, t in T)(fixedCostFromSupplierToWarehouse*R[p][i][w][t]) == fcFromSupToWh;
 	sum(w in W, s in S, t in T)(fixedCostPerTruck*NumTrucks[w][s][t]) == fixedCostTotal;
-	sum(w in W, s in S, t in T)(costPerKm*distances[s][w]*NumTrucks[w][s][t]) == varTransCostTotal;
+	sum(w in W, s in S, t in T)(2*costPerKm*distances[s][w]*NumTrucks[w][s][t]) == varTransCostTotal;
 	forall(p in P, w in W, t in T) sum(tCurrent in 1..t)((sum(i in I) X[p][i][w][tCurrent])-(sum(s in S) Z[p][w][s][tCurrent])) == whHoldingCost[p][w][t];
 	
 	// Warehouse-store sole sourcing
